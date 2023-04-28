@@ -131,8 +131,8 @@ if __name__ == "__main__":
     
     print("\nMean difference between two algos: " + av_diff)
     if quicker=="a":
-        print("In a series of "+str(trials)+" trials, partitioning without condition to omit nonproductive swaps averages ")
+        print("In a series of "+str(trials)+" trials, for a pair of array of length="+str(m)+" partitioning without condition to omit nonproductive swaps averages ")
         print(str(av_standard/av_doublcheck*100)+"% speed of the alternative.")
     else:
-        print("In a series of "+str(trials)+" trials, partitioning with condition to omit nonproductive swaps averages ")
+        print("In a series of "+str(trials)+" trials, for a pair of array of length="+str(m)+" partitioning with condition to omit nonproductive swaps averages ")
         print(str(av_doublcheck/av_standard*100)+"% speed of the alternative.")
