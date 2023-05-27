@@ -1,0 +1,9 @@
+Napisz program w wybranym języku programowania, który implementuje trzy algorytmy sortowania: 
+quicksort, 
+countingsort 
+oraz heapsort. 
+
+Następnie porównaj czasy sortowania każdego algorytmu dla losowej tablicy, 
+której elementami są liczby całkowite większe od zera. 
+Rozmiar tablicy ma być na tyle duży, aby udało się zauważyć różnicę czasów 
+dla poszczególnych algorytmów. Plik z rozwiązaniem ma zawierać kod oraz wyniki porównania.
