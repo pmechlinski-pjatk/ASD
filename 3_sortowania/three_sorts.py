@@ -161,11 +161,11 @@ end_b = time.time()
 diff_b = (end_b - start_b) *1000
 
 start_c = time.time()
-countingSort(C)
+heapSort(C)
 end_c = time.time()
 diff_c = (end_c - start_c) *1000
 
-print("Diff A: "+str(diff_a) + " ms")
-print("Diff B: "+str(diff_b) + " ms")
-print("Diff C: "+str(diff_c) + " ms")
+print("QuickSort: "+str(diff_a) + " ms")
+print("CountingSort: "+str(diff_b) + " ms")
+print("HeapSort: "+str(diff_c) + " ms")
 
